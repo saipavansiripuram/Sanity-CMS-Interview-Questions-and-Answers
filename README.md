@@ -2,20 +2,24 @@
 
 A beginner-friendly interview guide with explanations, practical code examples, GROQ queries, and scenario-based answers.
 
-
 ## Table of Contents
 
-- [Sanity CMS basics — Questions 1–7](#sanity-cms-basics--questions-1-7)
-- [Schema and content modeling — Questions 8–13](#schema-and-content-modeling--questions-8-13)
-- [GROQ query language — Questions 14–20](#groq-query-language--questions-14-20)
-- [Portable Text and media — Questions 21–23](#portable-text-and-media--questions-21-23)
-- [Studio customization — Questions 24–26](#studio-customization--questions-24-26)
-- [Next.js integration — Questions 27–31](#nextjs-integration--questions-27-31)
-- [Security and deployment — Questions 32–36](#security-and-deployment--questions-32-36)
-- [Scenario questions — Questions 37–41](#scenario-questions--questions-37-41)
-- [Quick revision checklist](#quick-revision-checklist)
-
+- [Sanity CMS basics — Questions 1–7](#sanity-basics)
+- [Schema and content modeling — Questions 8–13](#schema-content-modeling)
+- [GROQ query language — Questions 14–20](#groq-queries)
+- [Portable Text and media — Questions 21–23](#portable-text-media)
+- [Studio customization — Questions 24–26](#studio-customization)
+- [Next.js integration — Questions 27–31](#nextjs-integration)
+- [Security and deployment — Questions 32–36](#security-deployment)
+- [Scenario questions — Questions 37–41](#scenario-questions)
+- [Quick revision checklist](#quick-revision)
+- [Additional intermediate questions — Questions 42–55](#intermediate-questions)
+- [Additional advanced and scenario-based questions — Questions 56–65](#advanced-scenario-questions)
+- [Notes on completeness](#completeness-notes)
+- [Advanced add-on: Production-focused questions — Questions 66–80](#production-focused-questions)
 ---
+
+<a id="sanity-basics"></a>
 
 ## Sanity CMS basics — Questions 1–7
 
@@ -139,6 +143,8 @@ Use your actual project ID and dataset. Pin an explicit API version rather than 
 - Preview mode must be deliberately configured to access drafts and should be protected.
 
 ---
+
+<a id="schema-content-modeling"></a>
 
 ## Schema and content modeling — Questions 8–13
 
@@ -325,6 +331,8 @@ Do not put a write token in browser code. For bulk migrations, use a reviewed sc
 
 ---
 
+<a id="groq-queries"></a>
+
 ## GROQ query language — Questions 14–20
 
 ### 14. What is GROQ?
@@ -463,6 +471,8 @@ This returns full documents, potentially including large bodies and fields the p
 
 ---
 
+<a id="portable-text-media"></a>
+
 ## Portable Text and media — Questions 21–23
 
 ### 21. What is Portable Text?
@@ -562,6 +572,8 @@ Use appropriately sized images instead of downloading original-size assets for e
 
 ---
 
+<a id="studio-customization"></a>
+
 ## Studio customization — Questions 24–26
 
 ### 24. How can you customize Sanity Studio?
@@ -629,6 +641,8 @@ export const post = {
 This helps editors identify documents quickly in Studio lists.
 
 ---
+
+<a id="nextjs-integration"></a>
 
 ## Next.js integration — Questions 27–31
 
@@ -787,6 +801,8 @@ Configure the webhook to send the fields this handler expects. For production, u
 
 ---
 
+<a id="security-deployment"></a>
+
 ## Security and deployment — Questions 32–36
 
 ### 32. How do API tokens work?
@@ -838,6 +854,8 @@ Check the current CLI prompts and project configuration before deploying. For an
 **Good practice:** Version history is not a substitute for backups or a tested migration/rollback strategy, especially for bulk content transformations.
 
 ---
+
+<a id="scenario-questions"></a>
 
 ## Scenario questions — Questions 37–41
 
@@ -1023,6 +1041,8 @@ This test checks the page’s visible behavior. Add project-specific tests for a
 
 ---
 
+<a id="quick-revision"></a>
+
 ## Quick revision checklist
 
 The screenshot recommends prioritizing **questions 1–8, 14–17, 21, and 27–31** for a quick beginner-level revision.
@@ -1042,6 +1062,8 @@ When answering a technical question, try this structure: **define the concept �
 
 
 ---
+
+<a id="intermediate-questions"></a>
 
 ## Additional Intermediate Questions — Questions 42–55
 
@@ -1289,6 +1311,8 @@ Only use this form if `site` is a reference field. Match the filter to the actua
 
 ---
 
+<a id="advanced-scenario-questions"></a>
+
 ## Additional Advanced and Scenario-Based Questions — Questions 56–65
 
 ### 56. How would you design a content model for a blog with related posts?
@@ -1366,12 +1390,16 @@ A strong answer defines the concept, gives a short code example, explains when t
 
 ---
 
+<a id="completeness-notes"></a>
+
 ## Notes on completeness
 
 - **Questions 1–41** are based on the questions visible in the screenshots you supplied, with explanations and examples expanded.
 - **Questions 42–65** are additional interview-preparation questions added to fill out the guide. They are supplemental questions, not verified as questions spoken in the original video.
 - This file is one consolidated Markdown document. If the video contains further questions that are not shown in the screenshots or readable from the recording, those would need to be transcribed separately to claim a word-for-word complete video transcript.
 
+
+<a id="production-focused-questions"></a>
 
 ## Advanced Add-on: Production-Focused Questions — Questions 66–80
 

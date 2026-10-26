@@ -2,7 +2,6 @@
 
 A beginner-friendly interview guide with explanations, practical code examples, GROQ queries, and scenario-based answers.
 
-> **Scope:** This document consolidates the 41 questions visible in the supplied screenshots. The original numbering is preserved. Explanations and code examples have been expanded where useful. Code is illustrative; replace project IDs, dataset names, field names, and secrets with your own values.
 
 ## Table of Contents
 
